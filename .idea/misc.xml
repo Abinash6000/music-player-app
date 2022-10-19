@@ -7,7 +7,10 @@
         <entry key="..\:/MusicPlayer2/app/src/main/res/drawable/playlist_icon.xml" value="0.269" />
         <entry key="..\:/MusicPlayer2/app/src/main/res/drawable/shuffle_icon.xml" value="0.269" />
         <entry key="..\:/MusicPlayer2/app/src/main/res/drawable/splash_screen.xml" value="0.102" />
+        <entry key="..\:/MusicPlayer2/app/src/main/res/layout/activity_favourite.xml" value="0.2598958333333333" />
         <entry key="..\:/MusicPlayer2/app/src/main/res/layout/activity_main.xml" value="0.2598958333333333" />
+        <entry key="..\:/MusicPlayer2/app/src/main/res/layout/activity_player.xml" value="0.2598958333333333" />
+        <entry key="..\:/MusicPlayer2/app/src/main/res/layout/activity_playlist.xml" value="0.2598958333333333" />
       </map>
     </option>
   </component>
