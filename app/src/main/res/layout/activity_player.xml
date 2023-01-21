@@ -40,6 +40,7 @@
             android:contentDescription="@string/favorite" />
     </LinearLayout>
     <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/songImgPA"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_margin="10dp"
@@ -48,6 +49,7 @@
         app:strokeWidth="5dp"
         android:src="@drawable/splash_screen"/>
     <TextView
+        android:id="@+id/songNamePA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -64,11 +66,13 @@
         android:layout_weight="1"
         android:layout_margin="10dp">
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/previousBtnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/prev_icon"
             app:iconSize="40dp"/>
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/playPauseBtnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/pause_icon"
@@ -78,6 +82,7 @@
             app:iconTint="@color/white"
             android:layout_marginHorizontal="25dp"/>
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/nextBtnPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:icon="@drawable/next_icon"
@@ -129,25 +134,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:src="@drawable/favourite_empty_icon"
+            android:src="@drawable/equalizer_icon"
             android:layout_marginEnd="5dp"
             app:tint="@android:color/holo_red_dark"
             android:contentDescription="@string/equalizer_btn" />
+
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/transparent"
-            android:src="@drawable/favourite_empty_icon"
             android:layout_marginEnd="5dp"
-            app:tint="@android:color/holo_red_dark"
-            android:contentDescription="@string/timer_btn" />
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/timer_btn"
+            android:src="@drawable/timer_icon"
+            app:tint="@android:color/holo_red_dark" />
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:src="@drawable/favourite_empty_icon"
+            android:src="@drawable/share_icon"
             android:layout_marginEnd="5dp"
             app:tint="@android:color/holo_red_dark"
             android:contentDescription="@string/share_btn" />
